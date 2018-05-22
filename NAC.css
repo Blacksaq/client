@@ -1,0 +1,158 @@
+body{
+	
+	display:block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	
+}
+.bar {
+	width: 100vw;
+	height: 10vh;
+	background-color: #FF5802;
+}
+
+.calendar-h {
+	width: 100vw;
+	height: 50vh;
+	background-color: #1D2F5F;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.calendar {
+	width: 60vw;
+	height: 40vh;
+	background-color: blue;
+	position: absolute;
+}
+a{
+	text-decoration:none;
+}
+
+h3{
+	color:white;
+}
+
+.stuff {
+	width: 100vw;
+	height: 150vh;
+	background-color: #1D2F5F;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;	
+	justify-content: center;
+}
+center{
+	padding: 3vh;
+	
+}
+.tin {
+	background-color: red;
+	width: 60vw;
+	height: 20vh;
+}
+
+.nit {
+	background-color: white;
+	width: 60vw;
+	height: 20vh;
+}
+
+nav{
+	width:100vw; 
+	background-color: #0c0c0c;
+	color: #fff;	
+	height:55px; 
+	line-height: 55px;
+	position: fixed;
+	bottom: 0;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);	
+	text-align: center;
+	vertical-align: middle;
+	font-size: 1.5em;
+	font-weight: bold;
+	z-index: 10000000000;
+	display: flex;
+}
+
+.third {
+	background-color: #1D2F5F;
+	height: 100vh;
+	width: 100vw;
+	
+}
+
+.updates {
+	background-color:#F21817;
+	border: 1px solid white; /* Creates that kind of a curve in the div */
+	border-radius: 5%;
+	width: 75vw;
+	height: auto;  /* Height will increase whenever I add something new into it without me having to change anything */
+	color: #FEFEEF; 
+	justify-content: center; 
+	align-items: center;
+}
+
+/* Additional menu styles being as specific as possible so in case I add another list later the styles don't interfere */
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none; display: flex; flex-wrap: wrap;}
+.menu li {height: 39px; width: calc((100vw/4) - 4px); padding: 0 0 15px 0; border-left:#1d1f20 2px solid; border-right:#1d1f20 2px solid;}
+.menu li:hover{background: #181818; padding: 0 0 15px 0; border-left:#1d1f20 2px solid; border-right:#1d1f20 2px solid;}
+.menu ul li a {text-decoration:none;  margin: 0px; color:#fff;}
+.menu ul li a:hover {color: #fff; text-decoration:none;}
+.menu a{text-decoration:none; color:white;}
+.menu a:hover{text-decoration:none; color:white;}
+
+button {
+		background:none;
+		outline:none;
+		vertical-align: middle;
+		color:#fff;
+		border:0;
+		font-weight:bold;
+		line-height:45px;
+	}
+
+	.hamburger{
+		position:absolute;
+		right:0;
+		padding:5px 15px 5px 15px;
+		font-size:1.4em;
+		cursor:pointer;
+		z-index:10000000000000;
+	}
+
+	.cross{
+		display: none;
+		position:absolute;
+		right:0;
+		padding:5px 15px 5px 15px;
+		font-size:2.2em;
+		cursor:pointer;
+		z-index:10000000000000;
+	}
+
+	#icon {
+		position:absolute;
+		right:0;
+		bottom:0;
+		z-index:100000000000000000;
+		line-height:45px;
+		height: inherit;
+		vertical-align: middle;
+		width: auto;
+		display: block;
+	}
+
+	.menu li {height: 39px; width: 100vw; padding: 0 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	.menu li:hover{background: #181818; padding: 0 0 15px 0; border-bottom: #1d1f20 1px solid;}
+
+	/* This class is toggled on/off when the menu icon is clicked by the user */
+	.menu.open{
+		display: block;
+		transform: translate(0, -165px);
+		transition: transform 0.5s ease;
+	}
+}
