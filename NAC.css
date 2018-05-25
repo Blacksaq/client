@@ -14,7 +14,7 @@ body{
 
 .calendar-h {
 	width: 100vw;
-	height: 50vh;
+	height: 210vh;
 	background-color: #1D2F5F;
 	display: flex;
 	justify-content: center;
@@ -23,8 +23,7 @@ body{
 }
 
 .calendar {
-	width: 60vw;
-	height: 40vh;
+	width: 75vw;
 	background-color: blue;
 	position: absolute;
 }
@@ -38,7 +37,7 @@ h3{
 
 .stuff {
 	width: 100vw;
-	height: 150vh;
+	height: auto;
 	background-color: #1D2F5F;
 	display: flex;
 	flex-wrap: wrap;
@@ -94,6 +93,61 @@ nav{
 	color: #FEFEEF; 
 	justify-content: center; 
 	align-items: center;
+}
+
+.date {
+	border: solid 1px #1d2b5b;
+    color: #1d2b5b;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin: auto;
+    margin-left: 20px;
+    width: 60px;
+	
+}
+
+.gwuf {
+	color: black;
+	
+}
+.span {
+	margin-top: 5px;
+    margin-bottom: 0;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.625rem;
+	
+}
+
+.strong {
+	margin-bottom: 6px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 0.83;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #1d2b5b;
+    font-size: 1.875rem;
+}
+
+a {
+	color: black;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	list-style: none;
 }
 
 /* Additional menu styles being as specific as possible so in case I add another list later the styles don't interfere */
