@@ -200,13 +200,13 @@ button {
 		display: block;
 	}
 
-	.menu li {height: 39px; width: 100vw; padding: 0 0 15px 0; border-bottom:#1d1f20 1px solid;}
+	.menu li {height: 39px; width: 100vw; padding: 0 0 15px 0; background: #181818; border-bottom:#1d1f20 1px solid;}
 	.menu li:hover{background: #181818; padding: 0 0 15px 0; border-bottom: #1d1f20 1px solid;}
 
 	/* This class is toggled on/off when the menu icon is clicked by the user */
 	.menu.open{
 		display: block;
-		transform: translate(0, -165px);
+		transform: translate(0, -265px); /* TODO */
 		transition: transform 0.5s ease;
 	}
 }
