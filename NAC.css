@@ -15,7 +15,9 @@ body{
 .calendar-h {
 	width: 100vw;
 	height: 210vh;
-	background-color: #1D2F5F;
+	background-image: url("flag.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
